@@ -1,5 +1,4 @@
-function showLocalStorageData() {
-    // Check if local storage is supported by the browser
+ // Check if local storage is supported by the browser
     if (typeof(Storage) !== "undefined") {
         // Retrieve data from local storage
         var storedData = localStorage.getItem("myData");
@@ -15,5 +14,3 @@ function showLocalStorageData() {
     } else {
         console.log("Local storage is not supported by this browser.");
     }
-}
-
