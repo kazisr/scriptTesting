@@ -1,3 +1,3 @@
 window.onload = function() {
-    alert('Hello Kazi');
+    alert('Hello Kazi, r u there!');
 };
